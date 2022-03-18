@@ -4,6 +4,11 @@ color: black;
 font-family: roboto, arial;
 background-color: rgba(253, 253, 253, 0.849);
 }
+@media (min-width: 320px) and (max-width: 500px) {
+     body{
+       max-width: 500px;
+     }
+}
 
 .navbar-area {
     background: rgba(48, 39, 39, 0.973);
@@ -20,6 +25,12 @@ background-color: rgba(253, 253, 253, 0.849);
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
+  }
+  @media (min-width: 320px) and (max-width: 500px) {
+    a.site-logo{
+    font-size: 20px;
+    margin-left: 7px;
+   }  
   }
   .site-navbar ul {
     margin: 0;
@@ -39,8 +50,8 @@ background-color: rgba(253, 253, 253, 0.849);
   }  
   
   .nav-toggler {
-    border: 3px solid rgb(252, 249, 249);
-    margin-right: 30px;
+    border: 2px solid rgb(252, 247, 247);
+    margin-right: 8px;
     width: 45px;
     padding: 5px;
     background-color: transparent;
@@ -48,6 +59,7 @@ background-color: rgba(253, 253, 253, 0.849);
     height: 39px;
     display: none;
   }
+  
   .nav-toggler span, 
   .nav-toggler span:before, 
   .nav-toggler span:after {
@@ -170,7 +182,8 @@ background-color: rgba(253, 253, 253, 0.849);
 
 @media (min-width: 320px) and (max-width: 500px) {
     .heading-2{
-        width: 95%;
+        margin-top: -10px;
+        width: 98%;
         height: 80%;
     }
  }
@@ -190,8 +203,8 @@ background-color: rgba(253, 253, 253, 0.849);
 
 @media (min-width: 320px) and (max-width: 500px) {
     h1{
-        font-size: 35px; 
-        text-align: center;
+        font-size: 28px; 
+        text-align: start;
      }
  }
 
@@ -303,8 +316,8 @@ background-color: rgba(253, 253, 253, 0.849);
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .about-image-3{
-        width: 150px;
-        height: 60%;
+        width: 130px;
+        height: 50%;
         padding-bottom: 50px;
         padding-left: 25px;
     }
@@ -375,11 +388,12 @@ background-color: rgba(253, 253, 253, 0.849);
 }
 @media (min-width: 320px) and (max-width: 500px) {
     .intro-image-container{
-        width: 90%;
-        height: 50%;
+        width: 80%;
+        height: 45%;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 40px;
     }
      }
 
@@ -397,8 +411,8 @@ background-color: rgba(253, 253, 253, 0.849);
 
 @media (min-width: 320px) and (max-width: 500px) {
     .intro-image{
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
     }
  }
 
@@ -432,6 +446,18 @@ background-color: rgba(253, 253, 253, 0.849);
      }
  }
 
+  @media screen and (min-width: 320px) and (max-width: 500px) {
+
+  .intro-text-paragraph{
+  width: 99%;
+  height: 90%;
+  margin-top: -20px;
+
+  }
+
+  }
+ 
+
  .courses{
     height: 90vh;
     display: flex;
@@ -456,7 +482,7 @@ background-color: rgba(253, 253, 253, 0.849);
 
    @media (min-width: 320px) and (max-width: 500px) {
       .courses{
-          height: 100vh;
+          height: 115vh;
           width: 99%;
       }
     }
@@ -507,7 +533,8 @@ background-color: rgba(253, 253, 253, 0.849);
 @media (min-width: 320px) and (max-width: 500px) {
    .course-list{
        width: 100%;
-       height: 80vh;
+       height: 90vh;
+       margin-top: -20px;
        flex-direction: row;
        justify-content: space-around;
        flex-wrap: wrap;
@@ -533,9 +560,16 @@ background-color: rgba(253, 253, 253, 0.849);
 
 @media (min-width: 320px) and (max-width: 500px) {
    .course-1, .course-2, .course-3{
-       width: 47%;
-       height: 45%; 
+       width: 150px;
+       height: 50%; 
+       justify-content: space-between;
    }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+    #course-3{
+      margin-top: 10px;
+    }
 }
 
 
@@ -553,8 +587,8 @@ background-color: rgba(253, 253, 253, 0.849);
 
 @media (min-width: 320px) and (max-width: 500px) {
    .course-image{
-       width: 200px;
-       height: 200px;
+       width: 150px;
+       height: 150px;
    }
 }
 
@@ -569,6 +603,7 @@ background-color: rgba(253, 253, 253, 0.849);
        width: 98%;
        height: 10%;
        text-align: center;
+       margin-top: -10px;
    }
     }
 
@@ -583,6 +618,7 @@ background-color: rgba(253, 253, 253, 0.849);
        width: 50%;
        height: 8%;
        text-align: center;
+       margin-top: 10px;
    }
     }
 
@@ -595,7 +631,7 @@ button{
 @media (min-width: 320px) and (max-width: 500px) {
     button{
        height: 30px;
-       width: 50%;
+       width: 70%;
     }
 }
 
@@ -614,7 +650,7 @@ button{
 
     @media (min-width: 320px) and (max-width: 500px) {
         .how-it-works{
-            height: 100vh;
+            height: 120vh;
            
         } 
      }
@@ -643,18 +679,20 @@ button{
 
 @media (min-width: 320px) and (max-width: 500px) {
     .how-it-works-content{
-        height: 80%;
+        height: 90%;
         width: 95%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin: 0;
+
     }
  }
 
 .how-it-works-image{
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -675,25 +713,66 @@ button{
     width: 45%;
     height: 80%;
     margin-left: 15px;
-    line-height: 15px;
+    line-height: normal;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .how-it-works-text{
         width: 60%;
-        height: 65%;
-        line-height: 15px;
-        margin-top: -80px;
+        height: 70%;
+        line-height: normal;
+        margin-top: -50px;
     }
 }
 
 @media (min-width: 320px) and (max-width: 500px) {
     .how-it-works-text{
-        width: 95%;
+        width: 98%;
         height: 70%;
-        line-height: 15px;
+        line-height: normal;
         text-align: center;
     }
  }
+
+.how-it-works-paragraph{
+  width: 70%;
+  height: 20%;
+  margin-top:-15px;
+} 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .how-it-works-paragraph{
+    width: 90%;
+    height: 20%;
+    margin-top:-12px;
+  } 
+}
+
+ @media (min-width: 320px) and (max-width: 500px) {
+  .how-it-works-paragraph{
+    margin-top: -10px;
+  width: 95%;
+  height: 15%;
+
+  }
+}
+
+#how-it-works-heading-1, #how-it-works-heading-2{
+  margin-top: -20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #how-it-works-heading-1, #how-it-works-heading-2{
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+#how-it-works-heading-1, #how-it-works-heading-2{
+  margin-top: -15px;
+  
+}
+     
+}
+
  .tutorials{
     border-bottom: 2px solid rgb(39, 31, 31);
     height: 90vh;
@@ -759,9 +838,22 @@ button{
 
     @media (min-width: 320px) and (max-width: 500px) {
         .faq{
-            height: 70vh;
+            height: 90vh;
+            max-width: 499px;
+
            }
      }
+
+
+ @media (min-width: 320px) and (max-width: 500px) {
+      #faq-h2{
+        width: 95%;
+        font-size: 30px;
+        margin-top: -10px;
+        margin-left: -50px;
+    } 
+    }
+    
 
 .faq-container {
     margin: 0 auto;
@@ -782,7 +874,6 @@ button{
 
 @media (min-width: 320px) and (max-width: 500px) {
     .faq-container {
-        margin: 0 auto;
         padding: 4rem;
         width: 21rem;
         text-align: start;
@@ -790,11 +881,20 @@ button{
       }
  }
 
+ @media (min-width: 320px) and (max-width: 500px) {
+  .accordion-title{
+    font-size: 14px;
+    font-weight: bold;
+  }  
+}
+
+
  
  @media (min-width: 320px) and (max-width: 500px) {
     .faq-list{
-        width: 27rem;
+        width: 19rem;
         margin-left: -50px;
+
     }
 }
   
@@ -1024,8 +1124,8 @@ button{
 
 @media (min-width: 320px) and (max-width: 500px) {
   .address{
-      text-align: center;
-  margin-top: 15px;
+      text-align: start;
+  margin-top: 5px;
       width: 100%
   }
 }
@@ -1061,8 +1161,8 @@ li{
       width: 100%;
       display: flex;
    justify-content: space-between;
-      margin-top: 0px;
-      margin-left: -40px;
+      margin-top: 20px;
+      margin-left: -50px;
     }
    }
 
@@ -1093,6 +1193,12 @@ li{
       justify-content: center;
       align-items: center;
       height: 90%;
+  }
+
+  @media (min-width: 320px) and (max-width: 500px) {
+     .contact-us{
+     border-left: 2px solid rgb(80, 77, 77);
+     }
   }
   
   
